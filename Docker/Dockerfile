@@ -3,6 +3,8 @@ FROM ubuntu:14.04
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
 
+ENV NODE_ENV dev
+
 ENV XMPP_NAME Kaiwa
 ENV XMPP_DOMAIN example.com
 ENV XMPP_WSS wss://example.com:5281/xmpp-websocket/

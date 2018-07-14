@@ -1,5 +1,5 @@
 {
-    "isDev": true,
+    "isDev": {{IS_DEV}},
     "http": {
         "host": "{{HOSTNAME}}",
         "port": 8000
