@@ -38,7 +38,7 @@ RUN apt-get remove -y --force-yes nodejs && apt-get install -y --force-yes nodej
 
 RUN git clone git://github.com/digicoop/kaiwa.git
 
-RUN cd kaiwa && npm install
+RUN cd kaiwa && npm config set strict-ssl false && npm install
 
 ADD app /app
 
